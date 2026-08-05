@@ -1,0 +1,13 @@
+node_modules/
+package-lock.json
+.DS_Store
+Thumbs.db
+assets/company/
+assets/products/
+assets/optimized/
+assets/crops/
+assets/mapped/
+assets/verify/
+assets/logos/logo-*-opt.png
+assets/web/products/*.jpg
+*.xlsx

@@ -1,11 +1,241 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Boligold</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Boligold — premium food packaging in PS, PET and PP. Crystal clarity for cookies, pastries and confectionery. Export-ready.">
+  <meta name="theme-color" content="#1e5eff">
+  <title>Boligold | Food Packaging</title>
+  <link rel="icon" type="image/svg+xml" href="assets/web/icon.svg">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Boligold</h1>
-<p>Hello, world! 部署验证成功。</p>
+  <header class="nav" id="siteNav">
+    <div class="nav__inner">
+      <a class="brand" href="#top" aria-label="Boligold">
+        <img class="brand__mark" id="brandLogo" src="assets/web/icon.svg" alt="" width="36" height="36">
+        <div class="brand__text" id="brandText">Boli<span>gold</span></div>
+      </a>
+
+      <nav>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#products" data-i18n="nav_products">Products</a></li>
+          <li><a href="#scenes" data-i18n="nav_scenes">Inspiration</a></li>
+          <li><a href="#about" data-i18n="nav_about">About</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__actions">
+        <div class="lang" id="langSwitcher">
+          <button class="lang__btn" id="langBtn" type="button" aria-haspopup="listbox" aria-label="Language">
+            <span data-i18n="lang_label">Language</span>
+            <span id="langCurrent">English</span>
+          </button>
+          <div class="lang__menu" id="langMenu" role="listbox"></div>
+        </div>
+        <a class="btn btn--primary nav__cta" href="#contact" data-i18n="nav_inquiry">Get a Quote</a>
+        <button class="nav__toggle" id="navToggle" type="button" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/web/hero.jpg" alt="" width="1920" height="1080" fetchpriority="high">
+        <div class="hero__shade"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__brand">Boli<em>gold</em></p>
+        <h1 class="hero__title" data-i18n="hero_title">Food packaging that elevates every bite</h1>
+        <p class="hero__desc" data-i18n="hero_desc">PS · PET · PP food packaging for cookies, pastries and confectionery — crystal clarity, consistent quality, export-ready.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#products" data-i18n="hero_cta_products">Browse Products</a>
+          <a class="btn btn--ghost" data-wa data-i18n="hero_cta_whatsapp" href="https://wa.me/8618831098684">WhatsApp Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="materials" id="materials">
+      <div class="container">
+        <div class="material-rail reveal">
+          <button type="button" class="material-card active" data-cat="ps">
+            <span class="material-card__code">PS</span>
+            <strong data-i18n="cat_ps">Polystyrene</strong>
+            <em data-i18n="cat_ps_desc">Crystal-clear dessert boxes</em>
+          </button>
+          <button type="button" class="material-card" data-cat="pet">
+            <span class="material-card__code">PET</span>
+            <strong data-i18n="cat_pet">PET</strong>
+            <em data-i18n="cat_pet_desc">Durable display packaging</em>
+          </button>
+          <button type="button" class="material-card" data-cat="pp">
+            <span class="material-card__code">PP</span>
+            <strong data-i18n="cat_pp">Polypropylene</strong>
+            <em data-i18n="cat_pp_desc">Airtight pastel containers</em>
+          </button>
+          <button type="button" class="material-card" data-cat="accessories">
+            <span class="material-card__code">+</span>
+            <strong data-i18n="cat_acc">Accessories</strong>
+            <em data-i18n="cat_acc_desc">Sealing labels & finishing</em>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow" data-i18n="products_eyebrow">Catalog</span>
+          <h2 id="productsTitle" data-i18n="products_title">Food packaging collection</h2>
+          <p id="productsDesc" data-i18n="products_desc">Curated by material — choose clarity, strength, or airtight convenience for your brand.</p>
+        </div>
+
+        <div class="filters reveal" id="productFilters">
+          <button type="button" class="active" data-filter="all" data-i18n="filter_all">All</button>
+          <button type="button" data-filter="square" data-i18n="filter_square">Square</button>
+          <button type="button" data-filter="rect" data-i18n="filter_rect">Rectangular</button>
+          <button type="button" data-filter="round" data-i18n="filter_round">Round</button>
+          <button type="button" data-filter="tall" data-i18n="filter_tall">Tall</button>
+          <button type="button" data-filter="flat" data-i18n="filter_flat">Flat</button>
+          <button type="button" data-filter="accessory" data-i18n="filter_accessory">Accessories</button>
+        </div>
+
+        <div class="product-grid reveal" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="scenes" id="scenes">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow" data-i18n="scenes_eyebrow">Inspiration</span>
+          <h2 data-i18n="scenes_title">See how clarity sells</h2>
+          <p data-i18n="scenes_desc">Real applications — desserts, cookies and bakery presented through Boligold packaging.</p>
+        </div>
+        <div class="scene-mosaic reveal">
+          <figure class="scene scene--lg"><img src="assets/web/scenes/scene-01.jpg" alt="" loading="lazy"></figure>
+          <figure class="scene"><img src="assets/web/scenes/scene-02.jpg" alt="" loading="lazy"></figure>
+          <figure class="scene"><img src="assets/web/scenes/scene-pet-01.jpg" alt="" loading="lazy"></figure>
+          <figure class="scene"><img src="assets/web/scenes/scene-03.jpg" alt="" loading="lazy"></figure>
+          <figure class="scene scene--wide"><img src="assets/web/scenes/scene-04.jpg" alt="" loading="lazy"></figure>
+          <figure class="scene"><img src="assets/web/scenes/scene-pp-01.jpg" alt="" loading="lazy"></figure>
+          <figure class="scene"><img src="assets/web/scenes/scene-05.jpg" alt="" loading="lazy"></figure>
+          <figure class="scene"><img src="assets/web/scenes/scene-pet-02.jpg" alt="" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="split">
+          <div class="split__visual reveal">
+            <img src="assets/web/about-visual.jpg" alt="Boligold packaging" width="1400" height="900" loading="lazy">
+          </div>
+          <div class="reveal">
+            <span class="eyebrow" data-i18n="about_eyebrow">Why Boligold</span>
+            <h2 data-i18n="about_title">Built for brands that sell with sight</h2>
+            <p data-i18n="about_desc">We manufacture transparent food packaging that keeps products protected, display-ready, and consistent across every shipment.</p>
+            <ul class="feature-list">
+              <li>
+                <span class="dot">01</span>
+                <div>
+                  <h3 data-i18n="f1_title">Multi-material expertise</h3>
+                  <p data-i18n="f1_desc">PS clarity, PET durability and PP airtight systems — matched to your product and market.</p>
+                </div>
+              </li>
+              <li>
+                <span class="dot">02</span>
+                <div>
+                  <h3 data-i18n="f2_title">Stable dimensions</h3>
+                  <p data-i18n="f2_desc">Tight molding tolerances for reliable stacking, sealing and carton packing at scale.</p>
+                </div>
+              </li>
+              <li>
+                <span class="dot">03</span>
+                <div>
+                  <h3 data-i18n="f3_title">Export-ready supply</h3>
+                  <p data-i18n="f3_desc">Standard SKUs, clear specs and responsive communication for global buyers.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="factory">
+      <div class="band__media" aria-hidden="true">
+        <img src="assets/web/factory.jpg" alt="" width="1600" height="900" loading="lazy">
+        <div class="band__shade"></div>
+      </div>
+      <div class="band__content reveal">
+        <h2 data-i18n="factory_title">Precision molding, clean production</h2>
+        <p data-i18n="factory_desc">From injection molding to packing, our lines are organized for consistency, hygiene awareness and on-time delivery.</p>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div><strong data-i18n="s1">4</strong><span data-i18n="s1_label">Material lines</span></div>
+      <div><strong data-i18n="s2">35+</strong><span data-i18n="s2_label">Ready SKUs</span></div>
+      <div><strong data-i18n="s3">OEM</strong><span data-i18n="s3_label">Custom options</span></div>
+      <div><strong data-i18n="s4">24/7</strong><span data-i18n="s4_label">Inquiry support</span></div>
+    </div>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow" data-i18n="contact_eyebrow">Contact</span>
+          <h2 data-i18n="contact_title">Let’s pack your next bestseller</h2>
+          <p data-i18n="contact_desc">Share your target size, material and market. Our team will recommend matching boxes and packing plans.</p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__panel reveal">
+            <h3 data-i18n="contact_panel_title">Talk to sales</h3>
+            <p data-i18n="contact_panel_desc">Fast replies on WhatsApp. Live chat is also available on this page.</p>
+            <div class="contact__actions">
+              <a class="btn btn--wa" data-wa href="https://wa.me/8618831098684" data-i18n="contact_wa">Chat on WhatsApp</a>
+              <a class="btn btn--outline" href="#" id="openChat" data-i18n="contact_chat">Open live chat</a>
+            </div>
+          </div>
+          <div class="contact__visual reveal">
+            <img src="assets/web/scenes/scene-pp-02.jpg" alt="Boligold packaging" width="1200" height="900" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>Boligold</strong> · <span data-i18n="footer_tag">Food packaging manufacturer</span>
+      </div>
+      <div data-i18n="footer_copy">© Boligold Packaging. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <a class="fab-wa" data-wa href="https://wa.me/8618831098684" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.78 11.78 0 0 0 12.04 0C5.5 0 .2 5.3.2 11.82c0 2.08.55 4.1 1.6 5.9L0 24l6.45-1.69a11.8 11.8 0 0 0 5.59 1.42h.01c6.53 0 11.83-5.3 11.83-11.82 0-3.16-1.23-6.13-3.36-8.43ZM12.05 21.3h-.01a9.47 9.47 0 0 1-4.83-1.32l-.35-.21-3.82 1 1.02-3.72-.23-.38a9.45 9.45 0 0 1-1.45-5.05c0-5.23 4.26-9.48 9.5-9.48 2.54 0 4.92.99 6.71 2.78a9.42 9.42 0 0 1 2.78 6.7c0 5.23-4.26 9.48-9.5 9.48Zm5.2-7.1c-.28-.14-1.68-.83-1.94-.92-.26-.1-.45-.14-.64.14-.19.28-.74.92-.9 1.1-.17.19-.33.21-.61.07-.28-.14-1.18-.43-2.25-1.38-.83-.74-1.39-1.66-1.55-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.5.14-.17.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.54-.88-2.11-.23-.55-.47-.48-.64-.48h-.55c-.19 0-.5.07-.76.35-.26.28-1 1-1 2.43s1.02 2.82 1.16 3.01c.14.19 2.01 3.07 4.87 4.3.68.29 1.21.47 1.62.6.68.21 1.3.18 1.79.11.55-.08 1.68-.69 1.92-1.35.24-.66.24-1.23.17-1.35-.07-.11-.26-.18-.54-.32Z"/></svg>
+  </a>
+
+  <script src="js/products.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement('script'), s0 = document.getElementsByTagName('script')[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/6a71cd94055f021d4ace2d9e/1jv68m3hk';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
 </body>
 </html>

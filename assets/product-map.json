@@ -1,0 +1,358 @@
+[
+  {
+    "id": "BLHJ-101",
+    "size": "154×76×65",
+    "weight": "55g",
+    "qty": 140,
+    "note": "",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-101.jpg"
+  },
+  {
+    "id": "BLHJ-102",
+    "size": "145×82×53",
+    "weight": "62g",
+    "qty": 160,
+    "note": "frosted",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-102.jpg"
+  },
+  {
+    "id": "BLHJ-103",
+    "size": "147×90×50",
+    "weight": "65g",
+    "qty": 180,
+    "note": "",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-103.jpg"
+  },
+  {
+    "id": "BLHJ-201",
+    "size": "120×53",
+    "weight": "46g",
+    "qty": 135,
+    "note": "",
+    "shape": "round",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-201.jpg"
+  },
+  {
+    "id": "BLHJ-202",
+    "size": "140×60",
+    "weight": "61g",
+    "qty": 120,
+    "note": "frosted",
+    "shape": "round",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-202.jpg"
+  },
+  {
+    "id": "BLHJ-203",
+    "size": "100×60",
+    "weight": "41g",
+    "qty": 192,
+    "note": "frosted",
+    "shape": "round",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-203.jpg"
+  },
+  {
+    "id": "BLHJ-303",
+    "size": "65×55×95",
+    "weight": "33g",
+    "qty": 288,
+    "note": "clear-lid",
+    "shape": "tall",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-303.jpg"
+  },
+  {
+    "id": "BLHJ-501",
+    "size": "140×50",
+    "weight": "73g",
+    "qty": 120,
+    "note": "frosted",
+    "shape": "round",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-501.jpg"
+  },
+  {
+    "id": "BLHJ-502",
+    "size": "183×120×26",
+    "weight": "82g",
+    "qty": 120,
+    "note": "",
+    "shape": "flat",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-502.jpg"
+  },
+  {
+    "id": "BLHJ-503",
+    "size": "183×183×36",
+    "weight": "131g",
+    "qty": 64,
+    "note": "frosted",
+    "shape": "flat",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-503.jpg"
+  },
+  {
+    "id": "BLHJ-1031",
+    "size": "144×103×59",
+    "weight": "80g",
+    "qty": 128,
+    "note": "frosted",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-1031.jpg"
+  },
+  {
+    "id": "BLHJ-1032",
+    "size": "144×103×59",
+    "weight": "80g",
+    "qty": 128,
+    "note": "frosted",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-1032.jpg"
+  },
+  {
+    "id": "BLHJ-1250",
+    "size": "120×63×50",
+    "weight": "42g",
+    "qty": 270,
+    "note": "frosted",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-1250.jpg"
+  },
+  {
+    "id": "BLHJ-1270",
+    "size": "120×63×70",
+    "weight": "50g",
+    "qty": 180,
+    "note": "frosted",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-1270.jpg"
+  },
+  {
+    "id": "BLHJ-1435",
+    "size": "140×35",
+    "weight": "72g",
+    "qty": 168,
+    "note": "",
+    "shape": "round",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-1435.jpg"
+  },
+  {
+    "id": "BLHJ-3051",
+    "size": "85×85×63",
+    "weight": "42g",
+    "qty": 210,
+    "note": "",
+    "shape": "square",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-3051.jpg"
+  },
+  {
+    "id": "BLHJ-3052",
+    "size": "83×83×65",
+    "weight": "45g",
+    "qty": 210,
+    "note": "frosted",
+    "shape": "square",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-3052.jpg"
+  },
+  {
+    "id": "BLHJ-001",
+    "size": "95×95×65",
+    "weight": "56g",
+    "qty": 168,
+    "note": "frosted",
+    "shape": "square",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-001.jpg"
+  },
+  {
+    "id": "BLHJ-003",
+    "size": "108×108×58",
+    "weight": "64g",
+    "qty": 160,
+    "note": "",
+    "shape": "square",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-003.jpg"
+  },
+  {
+    "id": "BLHJ-005",
+    "size": "77×77×63",
+    "weight": "37g",
+    "qty": 280,
+    "note": "",
+    "shape": "square",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-005.jpg"
+  },
+  {
+    "id": "BLHJ-005A",
+    "size": "85×85×80",
+    "weight": "45g",
+    "qty": 210,
+    "note": "white",
+    "shape": "square",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-005A.jpg"
+  },
+  {
+    "id": "BLHJ-201+",
+    "size": "120×55",
+    "weight": "50g",
+    "qty": 135,
+    "note": "",
+    "shape": "round",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-201p.jpg"
+  },
+  {
+    "id": "BLHJ-303B",
+    "size": "65×55×95",
+    "weight": "33g",
+    "qty": 288,
+    "note": "black-lid",
+    "shape": "tall",
+    "category": "ps",
+    "img": "assets/web/products/ps/BLHJ-303B.jpg"
+  },
+  {
+    "id": "YZ-202",
+    "size": "140×94",
+    "weight": "76g",
+    "qty": 90,
+    "note": "",
+    "shape": "rect",
+    "category": "ps",
+    "img": "assets/web/products/ps/YZ-202.jpg"
+  },
+  {
+    "id": "YZ-003",
+    "size": "108×108×58",
+    "weight": "63g",
+    "qty": 160,
+    "note": "frosted",
+    "shape": "square",
+    "category": "ps",
+    "img": "assets/web/products/ps/YZ-003.jpg"
+  },
+  {
+    "id": "PET-01",
+    "size": "130×50",
+    "weight": "",
+    "qty": 200,
+    "note": "",
+    "shape": "round",
+    "category": "pet",
+    "img": "assets/web/products/pet/PET-01.jpg"
+  },
+  {
+    "id": "PET-1455",
+    "size": "140×50",
+    "weight": "",
+    "qty": 140,
+    "note": "",
+    "shape": "round",
+    "category": "pet",
+    "img": "assets/web/products/pet/PET-1455.jpg"
+  },
+  {
+    "id": "PET-2130",
+    "size": "215×150×31",
+    "weight": "",
+    "qty": 120,
+    "note": "",
+    "shape": "flat",
+    "category": "pet",
+    "img": "assets/web/products/pet/PET-2130.jpg"
+  },
+  {
+    "id": "PET-2530",
+    "size": "254×183×32",
+    "weight": "",
+    "qty": 90,
+    "note": "",
+    "shape": "flat",
+    "category": "pet",
+    "img": "assets/web/products/pet/PET-2530.jpg"
+  },
+  {
+    "id": "BLHJ-1090",
+    "size": "90×85×100",
+    "weight": "650ml",
+    "qty": 400,
+    "note": "",
+    "shape": "square",
+    "category": "pp",
+    "img": "assets/web/products/pp/BLHJ-1090.jpg",
+    "colors": true
+  },
+  {
+    "id": "SEAL-01",
+    "size": "—",
+    "weight": "—",
+    "qty": "—",
+    "note": "",
+    "shape": "accessory",
+    "category": "accessories",
+    "titleKey": "acc_seal_bw",
+    "img": "assets/web/products/accessories/SEAL-01.jpg"
+  },
+  {
+    "id": "SEAL-02",
+    "size": "—",
+    "weight": "—",
+    "qty": "—",
+    "note": "",
+    "shape": "accessory",
+    "category": "accessories",
+    "titleKey": "acc_seal_set",
+    "img": "assets/web/products/accessories/SEAL-02.jpg"
+  },
+  {
+    "id": "SEAL-03",
+    "size": "—",
+    "weight": "—",
+    "qty": "—",
+    "note": "",
+    "shape": "accessory",
+    "category": "accessories",
+    "titleKey": "acc_seal_roll",
+    "img": "assets/web/products/accessories/SEAL-03.jpg"
+  },
+  {
+    "id": "SEAL-04",
+    "size": "—",
+    "weight": "—",
+    "qty": "—",
+    "note": "",
+    "shape": "accessory",
+    "category": "accessories",
+    "titleKey": "acc_seal_custom",
+    "img": "assets/web/products/accessories/SEAL-04.jpg"
+  },
+  {
+    "id": "SEAL-05",
+    "size": "—",
+    "weight": "—",
+    "qty": "—",
+    "note": "",
+    "shape": "accessory",
+    "category": "accessories",
+    "titleKey": "acc_seal_pack",
+    "img": "assets/web/products/accessories/SEAL-05.jpg"
+  }
+]

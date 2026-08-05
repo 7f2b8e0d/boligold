@@ -1,0 +1,19 @@
+<!--Start of Tawk.to Script-->
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a71cd94055f021d4ace2d9e/1jv68m3hk';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+以上信息是tawk.to第三方聊天功能的添加代码
+C:\Users\xiaodou\Desktop\图片 这里是公司图片和 产品图片（xlsx里）
+whatsapp +8618831098684
+
+
