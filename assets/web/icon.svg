@@ -1,5 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" role="img" aria-label="Boligold">
-  <path fill="#1E5EFF" d="M22 4h14l26 16v18L46 52v40H22V4z"/>
-  <path fill="#4B7CFF" d="M36 20v24l14-8V28L36 20z"/>
-  <path fill="#1A52E0" d="M36 44l14 8v12L36 72V44z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 112" role="img" aria-label="Boligold">
+  <!-- Geometric b mark matching brand icon: hexagonal construction, solid blue -->
+  <path fill="#1E5EFF" fill-rule="evenodd" d="
+    M28 6
+    H50
+    L66 22
+    V42
+    L50 58
+    L66 74
+    V90
+    L50 106
+    H28
+    L12 90
+    V22
+    Z
+    M28 26
+    V90
+    H46
+    L28 72
+    L46 54
+    L28 36
+    Z
+  "/>
 </svg>
